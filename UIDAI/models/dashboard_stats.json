@@ -1,0 +1,53 @@
+{
+  "summary": {
+    "total_enrollments": 12500000,
+    "total_children": 5200000,
+    "total_adults": 7300000,
+    "num_states": 37,
+    "num_districts": 750,
+    "num_pincodes": 3250,
+    "avg_enrollment_per_pincode": 3846,
+    "median_enrollment": 11.0,
+    "anomaly_percentage": 10.0,
+    "high_enrollment_areas": 1625,
+    "low_enrollment_areas": 1625
+  },
+  "state_stats": {
+    "bio_age_5_17": {
+      "Andhra Pradesh": 150000,
+      "Bihar": 180000,
+      "Karnataka": 140000,
+      "Maharashtra": 160000,
+      "Tamil Nadu": 130000,
+      "Uttar Pradesh": 200000,
+      "West Bengal": 170000
+    },
+    "bio_age_17": {
+      "Andhra Pradesh": 210000,
+      "Bihar": 250000,
+      "Karnataka": 190000,
+      "Maharashtra": 220000,
+      "Tamil Nadu": 180000,
+      "Uttar Pradesh": 280000,
+      "West Bengal": 230000
+    },
+    "total_bio": {
+      "Andhra Pradesh": 360000,
+      "Bihar": 430000,
+      "Karnataka": 330000,
+      "Maharashtra": 380000,
+      "Tamil Nadu": 310000,
+      "Uttar Pradesh": 480000,
+      "West Bengal": 400000
+    },
+    "pincode": {
+      "Andhra Pradesh": 120,
+      "Bihar": 150,
+      "Karnataka": 110,
+      "Maharashtra": 140,
+      "Tamil Nadu": 100,
+      "Uttar Pradesh": 180,
+      "West Bengal": 130
+    }
+  }
+}
