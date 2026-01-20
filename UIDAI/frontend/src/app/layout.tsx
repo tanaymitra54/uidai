@@ -1,20 +1,11 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import { MainNav } from "@/components/navigation/MainNav";
+import { Breadcrumb } from "@/components/navigation/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "Aadhaar Biometric Analysis",
-  description: "ML-Powered Enrollment Prediction & Analysis Platform",
+  title: "UIDAI Analytics Platform",
+  description: "AI-Powered Decision Support for Enrollment Intelligence",
 };
 
 export default function RootLayout({
@@ -24,10 +15,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body className="antialiased bg-white">
+        <MainNav />
+        <Breadcrumb />
+        <main className="min-h-screen">
+          {children}
+        </main>
       </body>
     </html>
   );
