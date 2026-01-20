@@ -1,8 +1,0 @@
-{
-  "/anomaly-detection/page": "app/anomaly-detection/page.js",
-  "/comprehensive-analysis/page": "app/comprehensive-analysis/page.js",
-  "/configuration/page": "app/configuration/page.js",
-  "/dashboard/page": "app/dashboard/page.js",
-  "/enrollment-analytics/page": "app/enrollment-analytics/page.js",
-  "/page": "app/page.js"
-}
